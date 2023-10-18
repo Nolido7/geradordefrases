@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador de Frases</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador De Frases</h1>
+        <label for="selecionarOpcao">Escolha o tipo de frase:</label>
+        <select id="selecionarOpcao">
+            <option value="triste">Frases Tristes</option>
+            <option value="alegre">Frases Alegres</option>
+            <option value="motivacional">Frases Motivacionais</option>
+            <option Value="amor">Frases Amorosas</option>
+        </select>
+        <button onclick="gerarFrase()">Gerar Frase</button>
+        <p id="fraseGerada"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
