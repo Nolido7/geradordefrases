@@ -15,17 +15,18 @@ body {
 .container {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    padding: 5vh; /* Usando uma unidade relativa para espaçamento interno */
+    padding: 30px; /* Aumentei o espaçamento interno para 30px */
     text-align: center;
-    max-width: 80%;
+    max-width: 90%; /* Aumentei a largura do container para 90% */
+    font-size: 20px; /* Ajustei o tamanho da fonte para 20px */
 }
 
 select, button {
-    margin: 3vh; /* Usando uma unidade relativa para margem */
-    padding: 3vh; /* Usando uma unidade relativa para preenchimento interno */
-    font-size: 5vh; /* Usando uma unidade relativa para tamanho da fonte */
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
     border: none;
-    border-radius: 2vh; /* Usando uma unidade relativa para raio da borda */
+    border-radius: 5px;
     background-color: #3498db;
     color: #fff;
     cursor: pointer;
@@ -41,7 +42,7 @@ button {
 }
 
 #fraseGerada {
-    font-size: 7vh; /* Usando uma unidade relativa para tamanho da fonte */
-    margin-top: 5vh; /* Usando uma unidade relativa para margem superior */
+    font-size: 24px; /* Aumentei o tamanho da fonte para 24px */
+    margin-top: 20px;
     font-family: Georgia, sans-serif; /* Aqui você pode definir a fonte desejada */
 }
