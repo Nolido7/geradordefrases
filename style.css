@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #000;
     background-image: url('geradordefrases.png');
     background-size: cover;
     background-position: center;
@@ -15,17 +15,17 @@ body {
 .container {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    padding: 120px; /* Aumentei o espaçamento interno para 120px */
+    padding: 40px; /* Aumentei o espaçamento interno para 30px */
     text-align: center;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 select, button {
-    margin: 90px; /* Aumentei a margem para 90px */
-    padding: 10%; /* Aumentei o preenchimento para 10% do tamanho do container */
-    font-size: 36px; /* Aumentei o tamanho da fonte para 36px */
+    margin: 10px;
+    padding: 2%; /* Aumentei o preenchimento para 2% do tamanho do container */
+    font-size: 16px;
     border: none;
-    border-radius: 20px; /* Aumentei o raio da borda para 20px */
+    border-radius: 5px;
     background-color: #3498db;
     color: #fff;
     cursor: pointer;
@@ -41,7 +41,11 @@ button {
 }
 
 #fraseGerada {
-    font-size: 40px; /* Aumentei o tamanho da fonte para 40px */
-    margin-top: 40px; /* Aumentei a margem superior para 40px */
+    font-size: 20px;
+    margin-top: 20px;
     font-family: Georgia, sans-serif; /* Aqui você pode definir a fonte desejada */
+}
+label {
+  color: #000;
+  font-size: 20px;
 }
